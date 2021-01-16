@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: piattoTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.058 sec <<< FAILURE!
+piattoTest.testRemoveingre()  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: 1 >= 0
+	at java.base/java.util.Vector.removeElementAt(Vector.java:549)
+	at piatto.removeingre(piatto.java:32)
+	at piattoTest.testRemoveingre(piattoTest.java:60)
+
